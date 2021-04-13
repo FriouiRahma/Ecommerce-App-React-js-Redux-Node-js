@@ -1,0 +1,18 @@
+.add-section2-admin {
+  background-color: white;
+  padding: 40px;
+  margin-top: 15px;
+  h1 {
+    margin: auto;
+    border-bottom: 1px #aeaeae solid;
+    margin-bottom: 15px;
+  }
+  input[type="text"] {
+    border-color: #aeaeae;
+  }
+
+  .close-icon {
+    width: 20px;
+    cursor: pointer;
+  }
+}

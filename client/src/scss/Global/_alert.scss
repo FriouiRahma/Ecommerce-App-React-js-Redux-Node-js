@@ -1,0 +1,54 @@
+// .alert {
+//     padding: 10px;
+//     margin-bottom: 10px;
+//   }
+//   .alert-danger {
+//     background-color: $color-red;
+//     color: white;
+//   }
+
+//   .alert-success {
+//     background-color: $color-green;
+//     color: white;
+//   }
+
+.alerts-list {
+  position: fixed;
+  top: 50px;
+  right: 30px;
+  z-index: 999999;
+}
+.alert {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#react-confirm-alert .react-confirm-alert-overlay {
+  padding-top: 80px;
+  align-items: flex-start;
+  background: none;
+  .react-confirm-alert-body {
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $color-red;
+    font-size: 16px;
+
+    width: 336px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.13);
+    .react-confirm-alert-button-group {
+      justify-content: center;
+      button {
+        width: 120px;
+        padding: 10px;
+        //border: 1px solid rgb(201, 192, 192);
+        margin: 5px;
+        cursor: pointer;
+        background-color: #c1ccd6;
+        color: #fff;
+        font-size: 14px;
+      }
+    }
+  }
+}

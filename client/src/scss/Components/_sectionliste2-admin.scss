@@ -1,0 +1,42 @@
+.sectionlist2-admin{
+background-color: white;
+padding: 30px;
+margin-top: 15px;
+>h1{
+    border-bottom: 1px #aeaeae solid ;
+    margin: auto;
+    margin-bottom: 15px;
+}
+    .section-goupe2{
+        display: flex;
+        margin-bottom: 2px;
+        border-bottom: 1px dotted #aeaeae;
+        .item2-section{
+         flex-basis: 200px;
+         padding: 4px;
+         
+         line-height: 40px;
+         margin-right: 2px;
+
+         .editicon{
+             width: 18px;
+             margin-left: 50px;
+         }
+         .deleteicon{
+            width: 18px;
+            margin-left: 50px;
+            cursor: pointer;
+
+         }
+
+
+
+        }
+
+
+
+    }
+
+
+
+}

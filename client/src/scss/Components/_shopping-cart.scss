@@ -1,0 +1,191 @@
+.shopping-list {
+  margin-top: 14px;
+  background-color: #fff;
+  padding: 40px;
+  .panier-user {
+    font-size: 24px;
+    background-color: #f0f0f0;
+    color: #32373cfa;
+    margin-bottom: 14px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+  }
+  .shopping-detail {
+    .table-details {
+      border-collapse: collapse;
+      width: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      margin-bottom: 20px;
+      thead {
+        th {
+          color: #32373c;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 7px 5px;
+        }
+        tr {
+          background-color: white;
+          border: 1px solid #ccd0d4;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+        }
+      }
+      tbody {
+        tr {
+          border: 1px solid #ccd0d4;
+          &:nth-child(odd) {
+            background-color: #f9f9f9;
+          }
+          td {
+            padding: 5px;
+          }
+        }
+      }
+    }
+
+    h1 {
+      color: #000;
+      font-size: 36px;
+      font-weight: 300;
+      text-transform: uppercase;
+      padding: 30px 30px 30px 0;
+      font-family: lato;
+      letter-spacing: 5px;
+    }
+
+    .shopping-title {
+      margin: 0 0 5px 0;
+      color: #000;
+
+      font-size: 36px;
+      font-weight: 300;
+      text-transform: uppercase;
+
+      font-family: lato;
+      letter-spacing: 5px;
+    }
+    .thead {
+      color: #e2002a;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      thead {
+        th {
+          color: #000;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 20px 15px;
+          text-transform: uppercase;
+        }
+      }
+      tbody {
+        td {
+          border-top: 1px solid #b9b0b0;
+          padding: 60px 15px;
+        }
+      }
+    }
+
+    .shopping-info {
+      .btn-shop-left {
+        background-color: #f2f2f242;
+        margin-right: 10px;
+        border-radius: 50%;
+        font-size: 17px;
+        font-weight: bold;
+        border: none;
+        height: 33px;
+        width: 33px;
+        box-shadow: inset 0px 0px 5px 2px #ddd;
+        color: #f5b137;
+      }
+      .disable-button {
+        background-color: #f2f2f242;
+        margin-right: 10px;
+        border-radius: 50%;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: not-allowed;
+        border: none;
+        height: 33px;
+        width: 33px;
+        box-shadow: inset 0px 0px 5px 2px #ddd;
+        color: #ddd;
+      }
+      .btn-shop-right {
+        background-color: #f2f2f242;
+        margin-left: 10px;
+        border-radius: 50%;
+        font-size: 17px;
+        font-weight: bold;
+        border: none;
+        height: 33px;
+        width: 33px;
+        box-shadow: inset 0px 0px 5px 2px #ddd;
+        color: #f5b137;
+      }
+      .quantity-wanted {
+        color: #909090;
+      }
+
+      .picture-item {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+  .closeIcon {
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+  }
+  .last-info {
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    .btn-procede {
+      padding: 8px 24px;
+      border-radius: 4px;
+      font-size: 16px;
+      border: #ddd solid 1px;
+      color: #ffffff;
+      margin-bottom: 15px;
+      background-color: #929292;
+    }
+  }
+
+  .price-commande {
+    border: 1px solid #ccd0d4;
+    width: 17%;
+    padding: 10px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 0px 0px 2px 2px #ddd;
+    border-radius: 4px;
+    border: 2px solid #fff;
+  }
+
+  .commande-empty {
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: cursive;
+    border: 1px solid #ccd0d4;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    &.promo {
+      font-size: 16px;
+      color: #47525d;
+      font-family: ui-sans-serif;
+    }
+  }
+}

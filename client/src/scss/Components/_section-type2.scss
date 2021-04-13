@@ -1,0 +1,142 @@
+.section-home2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 4px;
+
+  .section2 {
+    .hover15 figure {
+      position: relative;
+    }
+    .hover15 figure::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 2;
+      display: block;
+      content: "";
+      width: 0;
+      height: 0;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 100%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      opacity: 0;
+    }
+    .hover15 figure:hover::before {
+      -webkit-animation: circle 0.75s;
+      animation: circle 0.75s;
+    }
+    @-webkit-keyframes circle {
+      0% {
+        opacity: 1;
+      }
+      40% {
+        opacity: 1;
+      }
+      100% {
+        width: 120%;
+        height: 120%;
+        opacity: 0;
+      }
+    }
+    @keyframes circle {
+      0% {
+        opacity: 1;
+      }
+      40% {
+        opacity: 1;
+      }
+      100% {
+        width: 120%;
+        height: 120%;
+        opacity: 0;
+      }
+    }
+
+    img {
+      border-radius: 4px;
+      &:hover {
+        cursor: pointer;
+        // box-shadow: 0 1px 4px 1px rgb(206, 200, 200);
+      }
+    }
+    .name-prod-sect {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      .name {
+        font-size: 13px;
+        font-weight: 700px;
+      }
+      .prix {
+        font-size: 13px;
+        cursor: pointer;
+        color: #aeaeae;
+        text-decoration: line-through;
+        white-space: nowrap;
+      }
+      .prix-sans-tarif {
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        color: #000;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+        white-space: nowrap;
+      }
+    }
+
+    .tarifpromo {
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      color: #000;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 15px;
+      white-space: nowrap;
+    }
+
+    .video-outer {
+      background-color: white;
+      border-radius: 4px;
+      padding: 6px;
+      height: calc(100% - 15px);
+      box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+      &:hover {
+        box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.4);
+      }
+    }
+    .voirtous {
+      color: #999;
+      &:hover {
+        cursor: pointer;
+        color: #ff7e00;
+      }
+    }
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      align-items: center;
+      //border-bottom: 1px solid #f0e2e2;
+      h2 {
+        font-size: 16px;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        color: #ff7e00;
+        font-size: 21px;
+        margin: 10px;
+        font-size: 28px;
+        //padding: 0;
+      }
+      .line-head {
+        border-bottom: 1px solid #ddd;
+        flex: 1;
+      }
+    }
+  }
+}

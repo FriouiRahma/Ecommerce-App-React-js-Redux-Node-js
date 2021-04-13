@@ -1,0 +1,27 @@
+.section-home-section4 {
+  padding-top: 0;
+  background-color: #f2f2f2;
+  padding-bottom: 0;
+  .section-type4 {
+    img {
+      border-radius: 4px;
+    }
+    img {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    display: flex;
+    //flex-direction: column;
+    .info-section {
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+
+      h2 {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

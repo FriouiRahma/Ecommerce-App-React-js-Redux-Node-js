@@ -1,0 +1,92 @@
+.add-product-boutique{
+  background-color: #fff;
+  .part-left{
+    padding: 20px;
+  }
+  input[type="text"]{
+    border: 1px #aeaeae solid;
+  }
+  textarea{
+    border: 1px #aeaeae solid;
+  }
+  >h1{
+    border-bottom: 1px solid #aeaeae;
+    margin-bottom: 15px;
+  }
+  label{
+    font-size: 16px;
+    color: #32373c;
+    font-weight: 600;
+  }
+  padding: 40px;
+  .categories-acc {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+  
+    .accordion {
+      padding-bottom: 20px;
+      .card-body {
+        margin-left: 20px;
+      }
+      .card-header {
+        width: 100%;
+        display: block;
+        /* background: #FFF; */
+        padding: 7px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        position: relative;
+        button {
+          position: absolute;
+          right: 0;
+          background-color: transparent;
+          top: calc(50% - 6px);
+          &:before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            top: 0;
+            right: 20px;
+            border-left: #999 solid 1px;
+            border-bottom: #999 solid 1px;
+            position: absolute;
+            transform: rotate(-45deg);
+          }
+        }
+      }
+    }
+    .check-group {
+      display: flex;
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+      label {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .img-product {
+    width: 150px;
+  }
+  .photos-produit {
+    background-color: #fff;
+    padding: 20px;
+  }
+  .button-add-photo {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: #ff7e00 solid 3px;
+    background-color: #fff;
+    color: #ff7e00;
+    display: inline-block;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+  }
+  
+
+}

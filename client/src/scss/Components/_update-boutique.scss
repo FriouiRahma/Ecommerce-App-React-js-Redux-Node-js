@@ -1,0 +1,92 @@
+.modif-boutique {
+  padding: 40px;
+  margin-top: 15px;
+  background-color: #fff;
+  .left-part {
+    padding: 20px;
+  }
+  .right-part {
+    padding: 20px;
+  }
+  .photo-button-group {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .modif-button-photo {
+    background-color: #fff;
+    color: darkorange;
+    border-color: darkorange;
+    height: 56px;
+    width: 150px;
+  }
+  .table-commercial {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-bottom: 10px;
+    thead {
+      border-radius: 4px;
+      th {
+        color: #5e86a5;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 7px 5px;
+      }
+      tr {
+        background-color: white;
+        border: 1px solid #ccd0d4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      }
+    }
+    tbody {
+      tr {
+        &:nth-child(odd) {
+          background-color: #f9f0f0db;
+        }
+        background-color: white;
+        border: 1px solid #ccd0d4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      }
+      td {
+        padding: 7px 5px;
+        font-weight: 600;
+      }
+    }
+  }
+  .photo-boutique-update {
+    margin-left: 15px;
+    width: 150px;
+  }
+
+  .close-icon {
+    width: 48px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  input[type="text"] {
+    border: 1px solid #aeaeae;
+  }
+  > h1 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #aeaeae;
+  }
+  .vente-detail-gros {
+    display: flex;
+    > li {
+      margin-right: 15px;
+      label {
+        font-size: 16px;
+        font-weight: 600;
+        color: #32373c;
+      }
+    }
+  }
+  .form-group {
+    label {
+      font-size: 16px;
+      font-weight: 600;
+      color: #32373c;
+    }
+  }
+}

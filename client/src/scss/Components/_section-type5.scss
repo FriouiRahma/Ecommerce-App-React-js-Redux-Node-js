@@ -1,0 +1,52 @@
+.section-home-section5 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0329/8941/3512/files/to-blog-bg-h1_1920x.png?v=1581910095);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  .home-sec-type5 {
+    padding: 15px 0 40px;
+    //box-shadow: 0 1px 7px 2px rgb(206, 200, 200);
+    .section-type5 {
+      img {
+        box-shadow: 0 1px 7px 2px rgb(206, 200, 200);
+        border-radius: 4px;
+        width: 100%;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .voirtous {
+      color: #d3d3d3;
+      &:hover {
+        cursor: pointer;
+        color: #ff7e00;
+      }
+    }
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      align-items: center;
+
+      //padding-top: 10px;
+      // border-bottom: 1px solid #f0e2e2;
+      h2 {
+        font-size: 16px;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,Cantarell, "Helvetica Neue", sans-serif;
+        color: #ff7e00;
+        font-size: 21px;
+        margin: 10px;
+        font-size: 28px;
+        //padding: 0;
+      }
+      .line-head {
+        border-bottom: 1px solid #ddd;
+        flex: 1;
+      }
+    }
+  }
+}

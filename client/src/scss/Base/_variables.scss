@@ -1,0 +1,31 @@
+/* Bootstrap variables */
+$grid-columns: 12;
+$grid-gutter-width: 15px;
+$grid-gutter-width-mobile: 40px;
+$container-max-widths: (
+  xl: 1190px,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$paragraph-margin-bottom: 40px;
+
+$spacer: 1px;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+@for $i from 0 through 100 {
+  $spacers: map-merge(
+    (
+      $i: (
+        $spacer * $i,
+      ),
+    ),
+    $spacers
+  );
+}

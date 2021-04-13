@@ -1,0 +1,13 @@
+.update-category{
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 15px;
+    >h1{
+        margin-bottom: 15px;
+        border-bottom: 1px #aeaeae solid;
+    }
+    select,
+    input[type= "text"]{
+        border: 1px #aeaeae solid;
+    }
+}

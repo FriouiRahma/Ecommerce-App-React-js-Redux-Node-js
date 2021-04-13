@@ -1,0 +1,26 @@
+.infos-list {
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 4px;
+  .item {
+    display: flex;
+    background-color: #f9f9f9;
+    margin-bottom: 2px;
+
+    .label {
+      flex-basis: 200px;
+      font-size: 16px;
+      padding: 0px 30px;
+      font-weight: bold;
+      border-right: #fff solid 1px;
+      line-height: 40px;
+    }
+    .value {
+      flex-basis: calc(100% - 150px);
+      font-size: 16px;
+      padding: 0px 30px;
+      line-height: 40px;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.section-home-section6 {
+  .home-sec-type6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .display-bet-image {
+      .box-text {
+        position: relative;
+        background-color: white;
+        border-radius: 4px;
+        padding: 6px;
+        box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.4);
+          cursor: pointer;
+          &:after {
+            content: "";
+            width: calc(100% - 12px);
+            height: calc(100% - 12px);
+            top: 6px;
+            left: 6px;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+          }
+        }
+        img {
+          width: 100%;
+        }
+
+        .title {
+          position: absolute;
+          z-index: 1;
+          left: 8%;
+          top: 20%;
+          color: #ff7e00;
+          font-size: 20px;
+        }
+        p {
+          position: absolute;
+          z-index: 1;
+          left: 8%;
+          top: 40%;
+          color: #ffffff;
+          font-family: "IBM Plex Sans", sans-serif;
+          font-weight: bold;
+          font-size: 36px;
+          max-width: 70%;
+        }
+      }
+    }
+  }
+}

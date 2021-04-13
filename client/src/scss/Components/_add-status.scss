@@ -1,0 +1,32 @@
+.status-admin {
+  background-color: #fff;
+  padding: 40px;
+  .input-groupe {
+    display: flex;
+    .prem-input {
+      margin-right: 4px;
+      height: auto;
+    }
+    .deux-input {
+      width: 30%;
+    }
+  }
+}
+.status-boutique {
+  background-color: #fff;
+  .add-status-boutique {
+    font-family: serif;
+    font-size: 20px;
+    margin: 4px;
+  }
+  .input-groupe {
+    display: flex;
+    .prem-input {
+      margin-right: 4px;
+      height: auto;
+    }
+    .deux-input {
+      width: 30%;
+    }
+  }
+}

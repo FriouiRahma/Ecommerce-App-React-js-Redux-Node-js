@@ -1,0 +1,54 @@
+.slider-list-admin {
+  background-color: #fff;
+  padding: 16px;
+
+  .title {
+    border-bottom: 1px solid rgb(19, 17, 17);
+    margin: auto;
+    margin-bottom: 4px;
+  }
+  .icon-delete {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  .icon-edit {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  .slider-image {
+    width: 50%;
+  }
+
+  .table-slider {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  thead {
+    tr {
+      border: 1px solid#929eaa;
+    }
+
+    th {
+      color: #32373c;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 7px 5px;
+    }
+  }
+  tbody {
+    tr {
+      border: 1px solid #929eaa;
+      &:nth-child(odd) {
+        background-color: #f8f9fd;
+      }
+      line-height: 3;
+
+      td {
+        padding: 7px 5px;
+      }
+    }
+  }
+}

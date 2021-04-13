@@ -1,0 +1,36 @@
+.page-categories {
+  background-color: white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 15px;
+  .header-page {
+    border-bottom: #f2f2f2 solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .catparent {
+    display: block;
+    color: #ff7e00;
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: 18px;
+  }
+  .sub {
+    .catnoeud {
+      display: block;
+      line-height: 30px;
+      font-weight: bold;
+    }
+  }
+
+  .subsub {
+    .catnoeud {
+      display: block;
+      line-height: 30px;
+      font-weight: bold;
+    }
+  }
+}

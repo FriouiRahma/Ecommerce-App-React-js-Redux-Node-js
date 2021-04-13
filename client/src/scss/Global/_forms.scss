@@ -1,0 +1,52 @@
+.form-group {
+  margin-bottom: 15px;
+  label {
+    margin-bottom: 9px;
+    color: #000;
+    font-size: 15px;
+  }
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+  padding: 10px 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.react-datepicker-wrapper {
+  display: block;
+}
+
+.or-sep {
+  border-right: 1px solid #ddd;
+  &:before {
+    content: "or";
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-style: italic;
+    border: 1px solid #ddd;
+    background: #fff;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+.separator {
+  border-right: 1px solid #ddd;
+}
+
+canvas {
+  max-width: 615px;
+  max-height: 487px;
+}

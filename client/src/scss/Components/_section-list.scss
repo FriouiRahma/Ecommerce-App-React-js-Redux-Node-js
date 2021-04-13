@@ -1,0 +1,127 @@
+.section-global-admin{
+    background-color: white;
+    margin-top: 15px;
+    padding: 30px;
+   >h1{
+    border-bottom:  1px #aeaeae solid ;
+    margin: auto;
+    margin-bottom: 15px;
+   }
+   input[type='text']{
+       width: 50px;
+       padding: 7px;
+       background-color: #f9f9f9;
+   }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,Cantarell, "Helvetica Neue", sans-serif;
+        thead {
+          th {
+            color: #32373c;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 7px 5px;
+          }
+          tr {
+            background-color: white;
+            border-bottom: 1px dotted #ccd0d4;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+          }
+        }
+    
+        tbody {
+            tr {
+             background-color: #fff;
+              border-bottom: 1px dotted #ccd0d4;
+             
+              td {
+                padding: 10px;
+                .deleteicon{ 
+                    width: 18px;
+                    margin-left: 50px;
+                    cursor: pointer;
+                   }
+                   .ok-icon{
+                    width: 16px;
+                    margin-left: 30px;
+                    cursor: pointer;
+                   }
+                   .cancel-icon{
+                    width: 14px;
+                    margin-left: 30px;
+                    cursor: pointer;
+                   }
+                   .add-Icon{
+                    width: 18px;
+                    margin-left: 30px;
+                    cursor: pointer;
+                   }
+                
+              }
+            }} 
+    }
+    .select-style{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+       
+        .btngetsec{
+            margin: 0 70px;  
+         }
+        select{
+        padding: 0;
+        margin: 0;
+        border: 1px #aeaeae solid;
+        width: 130px;
+        border-radius: 3px;
+        overflow: hidden;
+        background-color: #fff;
+        color: #B8860B;
+        position: relative; 
+        background-color: #f9f9f9;
+        }   
+    } 
+   
+    .title-Select{
+        text-transform: uppercase;
+        padding: 20px 20px 20px 0;
+        font-family: lato;
+        color:  #32485C;
+        font-size: 20px;
+        margin: 0;
+
+        }
+    .header{
+        color: #B8860B;
+        font-weight: bold;
+        font-family: lato;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+.group-itemsec{
+    display: flex;
+    background-color: white;
+    margin-bottom: 2px;
+    .itemsec{
+        display: flex;
+        flex-basis: 200px;
+        font-size: 16px;
+        //padding: 0px 30px;
+        border-right: #ff7e00 solid 1px;
+        line-height: 40px;
+    } 
+    .btnsec{
+       margin: 0 50px;
+    }
+    .lastbtn{
+        margin: 0 20px;
+        background-color: #454545;
+    }
+     
+
+}
+  
+
+
+}

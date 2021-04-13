@@ -1,0 +1,51 @@
+.list-useradmin {
+  background-color: white;
+  padding: 30px;
+  h1 {
+    border-bottom: 1px #aeaeae solid;
+  }
+  .groupe-user {
+    display: flex;
+    margin-bottom: 2px;
+    border-bottom: 1px dotted #aeaeae;
+    .item-user {
+      display: flex;
+      flex-basis: 200px;
+      line-height: 40px;
+      margin-right: 2px;
+      background-color: white;
+      padding: 4px;
+      .icon {
+        width: 18px;
+        margin-left: 50px;
+        &.delete {
+          cursor: pointer;
+        }
+      }
+    }
+    .btnblock {
+      background: none;
+      border: none;
+      .userblock {
+        width: 18px;
+        height: 18px;
+        margin-left: 50px;
+        background-image: url(../../icons/block.svg);
+        &.activate {
+          background-image: url(../../icons/open-lock.svg);
+        }
+      }
+    }
+    .btnuser {
+      padding: 10px;
+      width: 100%;
+      margin: 4px;
+    }
+    .btndanger {
+      background-color: #b3341d;
+    }
+    .btnact {
+      background-color: #d89521;
+    }
+  }
+}

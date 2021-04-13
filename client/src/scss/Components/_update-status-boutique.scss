@@ -1,0 +1,15 @@
+.update-status-boutique {
+  background-color: #fff;
+  margin-top: 14px;
+  padding: 40px;
+  input[type="text"] {
+    width: 40%;
+    margin-left: 14px;
+  }
+  .input-groupe {
+    display: flex;
+    .prem-input {
+      height: auto;
+    }
+  }
+}

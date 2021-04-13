@@ -1,0 +1,42 @@
+.sectionlist1-admin{
+    background-color: white;
+    margin-top: 15px;
+    padding: 30px;
+    >h1{
+        border-bottom:  1px #aeaeae solid ;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+.section-goupe1{
+    display: flex;
+    margin-bottom: 2px;
+    border-bottom: 1px dotted #aeaeae;
+    .item1-section{
+        flex-basis: 200px;
+        padding: 4px;
+       
+        margin-right: 2px;
+        line-height: 40px;
+        
+        .editicon{
+            width: 18px;
+            margin-left: 50px;
+        }
+        .deleteicon{
+            width: 18px;
+            margin-left: 50px;
+            cursor: pointer;
+        }
+
+
+
+
+    }
+    .btndenger{
+        background-color: #b3341d;;
+    }
+}
+
+
+
+}

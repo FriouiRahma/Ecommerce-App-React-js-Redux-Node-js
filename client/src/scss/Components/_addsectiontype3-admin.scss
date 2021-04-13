@@ -1,0 +1,37 @@
+.add-section3-admin{
+    background-color: white;
+    padding: 40px;
+    margin-top: 15px;
+    h1{
+       margin: auto;
+       border-bottom: 1px #aeaeae solid ;
+       margin-bottom: 15px;
+   
+   }
+   input[type="text"]{
+       
+       border-color:  #aeaeae  ;
+   }
+   
+   .photo-pub{
+       display: flex;
+        .img-pub{
+            width: 150px;
+            height: 150px;
+            border: 1px #aeaeae dotted;
+        }
+    .button-add-pub{
+        width: 150px;
+        height: 150px;
+        border-color: #ff7e00;
+        color: #ff7e00;
+        background-color: white;
+        margin-right: 10px;
+    }    
+
+
+
+   }
+  
+   
+   }

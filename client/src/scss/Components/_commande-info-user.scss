@@ -1,0 +1,153 @@
+.commande-info-user {
+  background-color: #fff;
+  margin-top: 14px;
+  padding: 40px;
+  .commande-num {
+    font-size: 24px;
+    font-family: cursive;
+    background-color: #f0f0f0;
+    color: #32373cfa;
+    margin-bottom: 14px;
+    text-align: center;
+    border-radius: 10px 100px;
+    box-shadow: inset 0px 0px 6px 3px #ddd;
+  }
+  .table-details {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-bottom: 20px;
+    thead {
+      th {
+        color: #32373c;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 7px 5px;
+      }
+      tr {
+        background-color: white;
+        border: 1px solid #ccd0d4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      }
+    }
+    tbody {
+      tr {
+        border: 1px solid #ccd0d4;
+        &:nth-child(odd) {
+          background-color: #f9f9f9;
+        }
+        td {
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+  .sendmessage {
+    textarea {
+      border-radius: 4px;
+      background-color: #f9f9f9;
+      &:focus {
+        background-color: #f1f5fa;
+      }
+    }
+  }
+  .title-message {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: cursive;
+    margin: 13px;
+  }
+  .message-detail {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 9px;
+    border: 2px solid #45454545;
+    color: #333;
+    margin: 4px;
+    box-shadow: inset 0px 0px 4px 3px #ddd;
+  }
+  .btn-send {
+    float: right;
+    font-family: cursive;
+    border: 2px solid #5c6273;
+    background-color: white;
+    color: #5c6273;
+    line-height: 2;
+    width: 100px;
+    transition-duration: 0.4s;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .product-commande {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 6px;
+    .commande-bout-name {
+      font-size: 29px;
+    }
+    .commande-info {
+      margin-bottom: 15px;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      .image {
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+
+  .conversation {
+    background-color: white;
+    position: relative;
+    width: 600px;
+    padding: 25px;
+    box-shadow: 0 0 2px black;
+
+    .detail-message {
+      margin: 10px;
+      border-bottom: 1px solid #d3d399;
+      background-color: #f1f1f1;
+      width: 100%;
+      border-radius: 20px;
+      padding: 15px;
+    }
+
+    .sendmessage {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      textarea {
+        overflow: auto;
+        resize: vertical;
+        width: 100%;
+        border-radius: 25px;
+        /* background-color: #f1f1f1; */
+        border-color: #d3d399;
+      }
+      button {
+        /* margin-left: 308px; */
+        line-height: 26px;
+        right: 0px;
+        border: none;
+        color: #ffffff;
+        background-color: #ff7e00;
+        padding: 7px 30px;
+        text-transform: uppercase;
+        font-size: 13px;
+        white-space: normal;
+        /* margin-right: 0; */
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

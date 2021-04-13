@@ -1,0 +1,109 @@
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  z-index: 99999;
+}
+
+.ModalAcheter-Box {
+  width: 600px;
+  input[type="text"] {
+    &:focus {
+      background-color: rgb(248, 248, 248);
+    }
+  }
+  .button-close {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      background: none;
+      border: none;
+    }
+    .iconclose {
+      width: 18px;
+      height: 19px;
+    }
+  }
+  .prod-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 6px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    box-shadow: 6px 5px 2px 0px #dddddd5c;
+    margin-left: 4px;
+    .name-produit {
+      padding-top: 24px;
+      .prix {
+        text-align: center;
+        margin-top: 4px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+    .btn-shop-left {
+      background-color: #fff;
+      margin-right: 10px;
+      border-radius: 50%;
+      font-size: 17px;
+      font-weight: bold;
+      color: #ff7e00;
+      border: none;
+      height: 35px;
+      width: 35px;
+      border: 1px solid #b3b3b373;
+      margin-left: 10px;
+      box-shadow: inset 0px 0px 9px 4px #dddddd5c;
+    }
+    .disable-button {
+      background-color: #fff;
+      margin-right: 10px;
+      border-radius: 50%;
+      font-size: 17px;
+      font-weight: bold;
+      color: #ddd;
+      border: none;
+      height: 35px;
+      width: 35px;
+      border: 1px solid #b3b3b373;
+      margin-left: 10px;
+      box-shadow: inset 0px 0px 9px 4px #dddddd5c;
+      cursor: not-allowed;
+    }
+
+    .btn-shop-right {
+      background-color: #fff;
+      margin-right: 10px;
+      border-radius: 50%;
+      font-size: 17px;
+      font-weight: bold;
+      color: #ff7e00;
+      border: none;
+      height: 35px;
+      width: 35px;
+      border: 1px solid #b3b3b373;
+      margin-left: 10px;
+      box-shadow: inset 0px 0px 9px 4px #dddddd5c;
+    }
+  }
+  .enter-coord {
+    font-size: 24px;
+    font-family: cursive;
+    color: #32373cfa;
+    margin-bottom: 15px;
+  }
+  .button-acheter {
+    background-color: $color-red;
+    width: 226px;
+    height: 49px;
+    border: none;
+    border-radius: 4px;
+    border-width: 1px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+}

@@ -1,0 +1,38 @@
+.add-new-boutique{
+    background-color: white;
+    padding: 40px;
+    margin-top: 15px;
+    h1{
+        margin: auto;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #aeaeaa;
+    }
+    input[type='text']{
+        border: 1px solid #aeaeaa;
+    }
+    .disp-photo{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .photo-boutique{
+        width: 150px;
+        height: 150px;
+        border: 1px dotted #aeaeae;
+    }
+    .btn-add-photo{
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        border-color: #ff7e00;
+        color:#ff7e00 ;
+        margin-right: 10px;
+        
+    }
+
+
+    .phototoupdate{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

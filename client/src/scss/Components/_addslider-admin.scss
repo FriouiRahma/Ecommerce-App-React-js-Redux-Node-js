@@ -1,0 +1,25 @@
+.new-slider {
+  padding: 16px;
+  background-color: white;
+  h1 {
+    margin: auto;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #aeaeae;
+  }
+  input[type="text"] {
+    border: 1px solid #aeaeae;
+  }
+  .photo-slider {
+    width: 713.5px;
+    height: 285.35px;
+    border: 1px dotted #aeaeae;
+  }
+  .btn-add-photo {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-color: #ff7e00;
+    color: #ff7e00;
+    margin-bottom: 15px;
+  }
+}

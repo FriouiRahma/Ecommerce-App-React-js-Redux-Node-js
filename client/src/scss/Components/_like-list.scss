@@ -1,0 +1,81 @@
+.list-like {
+  background-color: #fff;
+  padding: 40px;
+  margin-top: 14px;
+  border-radius: 4px;
+  .user-favorite {
+    font-size: 24px;
+    font-family: cursive;
+    background-color: #f0f0f0;
+    color: #32373cfa;
+    margin-bottom: 14px;
+    text-align: center;
+    border-radius: 10px 100px;
+    box-shadow: inset 0px 0px 6px 3px #ddd;
+  }
+  .table-details {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-bottom: 20px;
+    thead {
+      th {
+        color: #32373c;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 7px 5px;
+      }
+      tr {
+        background-color: white;
+        border: 1px solid #ccd0d4;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      }
+    }
+    tbody {
+      tr {
+        border: 1px solid #ccd0d4;
+        &:nth-child(odd) {
+          background-color: #f9f9f9;
+        }
+        &:hover{
+          box-shadow: inset 0px 0px 6px 3px rgb(228, 226, 226);
+        }
+        td {
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .closeIcon {
+    width: 25px;
+    height: 15px;
+    cursor: pointer;
+  }
+
+  .like-list-empty {
+    text-align: center;
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 30px 30px 30px 0;
+    font-family: cursive;
+    border-radius: 4px;
+    .auc-like {
+      border-top: none;
+    }
+  }
+  .likes-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px;
+
+    .like-info {
+      .picture-item {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+}

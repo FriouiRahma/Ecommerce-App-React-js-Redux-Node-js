@@ -1,0 +1,38 @@
+.add-settings {
+  background-color: #fff;
+  padding: 40px;
+
+  .photo-acceuil {
+    display: flex;
+    margin-bottom: 14px;
+    .img-pub {
+      width: 337px;
+      height: 164px;
+      border: 1px dotted #aeaeae;
+    }
+    .button-add-pub {
+      width: 150px;
+      height: 150px;
+      background-color: white;
+      border-color: #ff7e00;
+      color: #ff7e00;
+      margin-right: 10px;
+    }
+  }
+  .photo-annonce {
+    display: flex;
+    .img-pub {
+      width: 337px;
+      height: 164px;
+      border: 1px dotted #aeaeae;
+    }
+    .button-add-pub {
+      width: 150px;
+      height: 150px;
+      background-color: white;
+      border-color: #ff7e00;
+      color: #ff7e00;
+      margin-right: 10px;
+    }
+  }
+}

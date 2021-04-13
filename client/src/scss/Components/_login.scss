@@ -1,0 +1,14 @@
+.ce-form {
+  margin-bottom: 100px;
+
+  p {
+    line-height: 1.6;
+  }
+  a {
+    color: $color-orange;
+    &.btn {
+      color: $color-white;
+      display: inline-block;
+    }
+  }
+}

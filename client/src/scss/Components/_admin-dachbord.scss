@@ -1,0 +1,32 @@
+.admin-layout {
+  background-color: #fff;
+  margin-top: 14px;
+  padding: 40px;
+  .single-element {
+    background-color: #f2f2f2;
+    color: #000;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 4px;
+    height: 130px;
+    margin-bottom: 15px;
+    justify-content: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    .item {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .link-slider {
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+  .icon-add {
+    width: 15px;
+    margin-right: 10px;
+  }
+}

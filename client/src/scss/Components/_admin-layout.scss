@@ -1,0 +1,23 @@
+.admin-layout {
+  display: flex;
+  .nav-admin {
+    flex-basis: 250px;
+    background-color: $color-gray;
+    color: $color-white;
+    height: 100%;
+    ul {
+      list-style: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      li {
+        line-height: 30px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+
+  .content-admin {
+    flex-basis: calc(100% - 250px);
+  }
+}

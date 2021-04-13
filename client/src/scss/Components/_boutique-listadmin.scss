@@ -1,0 +1,65 @@
+.boutique-lis-admin{
+    background-color: white;
+    margin-top: 15px;
+    padding: 30px;
+    h1{
+        border-bottom:  1px #aeaeae solid ;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+.bout-group{
+    display: flex;
+    margin-bottom: 2px;
+    border-bottom: 1px dotted #aeaeae;
+    .item-bout{
+        display: flex;
+        flex-basis: 200px;
+        margin-right: 2px;
+        line-height: 40px;
+        padding: 4px;
+        .icon{
+            width: 18px;
+            margin-left: 50px;
+            &.delete{
+                cursor: pointer;
+            }
+        }
+        &.header{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+    }
+    .boutblock{
+        border: none;
+        background: none;
+         .blockIcon{
+            width: 18px;
+            height: 18px;
+            margin-left: 50px;
+            background-image: url(../../icons/block.svg);
+         &.activate{
+            background-image: url(../../icons/open-lock.svg);
+         }
+
+        }
+    }
+   
+    .btnbout{
+    padding: 10px;
+    width: 100%;
+    margin: 4px;
+    }
+    .btn-danger{
+        background-color: #b3341d;
+    }
+    .btn-bloque{
+        background-color: #d89521;
+    }
+}
+
+
+
+
+}
