@@ -1,0 +1,12 @@
+{
+  "mongoURI": "mongodb+srv://bmc:bmc123456@bm-wqncw.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "mailHost": "SSL0.OVH.NET",
+  "mailPort": 587,
+  "mailUser": "contact@bigmall.tn",
+  "mailPassword": "B3;M124cf",
+  "mailFrom": "\"BIG MALL\" <contact@bigmall.tn>",
+  "frontUrl": "http://localhost:2000",
+  "backUrl": "http://localhost:5000",
+  "facebookId": "619851311922947"
+}
